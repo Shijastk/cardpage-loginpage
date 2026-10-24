@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #f0f2f5;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    font-size:14px;
+    line-height: 1.1;
+    font-size: 16px;
+}
+
+.page{
+    display: flex;
+    height: 100%;
+}
+.left-side{
+    width: 30%;
+    background-color: #581F65;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    gap: 30px;
+}
+
+.left-side img{
+    width: 240px;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+.left-side h1{
+    font-weight: 600;
+    max-width: 320px;
+
+}
+
+.short-line{
+    width: 50px;
+    height: 5px;
+    background-color: white;
+}
+
+.main-area{
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card{
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    box-shadow:0 2px 30px rgba(0, 0, 0, 0.05) ; /* x-axis, y-axis, blur radius, color */
+}
+
+.card-heading{
+    background-color: #581F65;
+    padding: 20px 18px;
+    font-size: 16px;
+    color: white;
+}
+
+.card-content{
+    padding: 30px;
+}
+.card-content .input-box{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    margin: 10px 0px;
+    height: 50px;
+    outline: none;
+    border: 1px solid #b9dcff;
+    font-size: 16px;
+}
+.input-box input:focus-within{
+    outline: 1px solid #581F65;
+    z-index: 1;
+}
+
+.card-content input{
+    flex: 1;
+    outline: none;
+    border: none;
+    padding: 0 15px;
+    background-color: transparent;
+    color: #c4c4c5;
+}
+
+.card-content input::placeholder{
+    color: #c4c4c5;
+    font-size: 16px;
+}
+
+.card-content .icon{
+    flex: 0 0 48px;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #b9dcff;
+}
+
+.card-content a{
+    font-size: 12px;
+    color:#581F65;
+}
+
+.card-content button{
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+}
+.card-content form button{
+    background-color: #581F65;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.separator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    font-weight: 300;
+}
+
+.social-button{
+    outline: none;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    /* padding: 10px !important; */
+    background-color: #f5f8fa;
+    font-weight: 500;
+}
+.social-button img{
+    height: 30px;
+}
+
+.facebook-button img{
+    background-color: #3b5999;
+    border-radius: 5px;
+}
+
+.social-button:last-child{
+    margin-top: 10px;
+}
+
+.signup{
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 10px;
+    font-weight: 400;
+    color:#581F65;
+
+}
+
+.signup a{
+    color:#581F65;
+    font-weight: 600;
+}
